@@ -210,7 +210,7 @@ module.exports = {
             2. Get started for free 
             3. Copy YourNgrokAuthToken: https://dashboard.ngrok.com/get-started/your-authtoken
         */
-        enabled: true,
+        enabled: false,
         authToken: '2hrOKFCjcV2jaNVI94rSPfdfIoY_4zUXhJXuYGuUSXH7FNnWu',
     },
     sentry: {
