@@ -17,7 +17,7 @@ function getIPv4() {
     return '0.0.0.0'; // Default to 0.0.0.0 if no external IPv4 address found
 }
 
-const IPv4 = '44.233.151.27';
+const IPv4 = getIPv4();
 
 const numWorkers = require('os').cpus().length;
 
